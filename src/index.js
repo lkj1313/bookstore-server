@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 
 // .env 파일의 경로를 지정합니다.
-dotenv.config({ path: "../../.env" });
+dotenv.config({ path: "../.env" });
 
 const app = express();
 const port = 9999;
